@@ -1,0 +1,271 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #1f1f1f;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 6px 12px;
+    transition: 0.3s;
+}
+
+.nav_link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+}
+
+h1, h2 {
+    font-size: 2em;
+    color: #8a2be2;
+    margin-top: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    color: #cccccc;
+    line-height: 1.6;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.bienvenida {
+    text-align: center;
+    background: #1a1a1a;
+    color: #f0f0f0;
+    border-radius: 10px;
+    margin: 25px auto 35px;
+    max-width: 900px;
+    box-shadow: 0px 3px 8px rgba(255, 255, 255, 0.05);
+    padding: 35px;
+}
+
+.boton {
+    background-color: #8a2be2;
+    color: #fff;
+    padding: 10px 22px;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.boton:hover,
+.boton-secundario:hover {
+    background-color: #6a0dad;
+    transform: scale(1.05);
+}
+
+.boton:active {
+    transform: scale(0.97);
+}
+
+.boton-secundario {
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer {
+    background: #1f1f1f;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px -3px 8px rgba(255, 255, 255, 0.05);
+}
+
+.footer p {
+    margin: 0;
+    color: #e0e0e0;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    width: 100%;
+    border: 1px solid #555;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: #121212;
+    color: #f0f0f0;
+    box-shadow: inset 0px 1px 4px rgba(255, 255, 255, 0.05);
+    transition: border 0.3s ease;
+}
+
+input:focus {
+    border-color: #8a2be2;
+    outline: none;
+    box-shadow: 0px 0px 6px rgba(138, 43, 226, 0.4);
+}
+
+label {
+    font-size: 1em;
+    color: #ddd;
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.campo-password {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #bbb;
+}
+
+.texto-secundario {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+    background-color: #1f1f1f;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #8a2be2;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ofertas-trabajo {
+    margin: 30px 0;
+}
+
+.oferta {
+    background-color: #1a1a1a;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+.oferta h3 {
+    color: #8a2be2;
+    font-size: 1.8em;
+}
+
+.oferta p {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.boton {
+    background-color: #8a2be2;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.boton:hover {
+    background-color: #6a0dad;
+}
+
+.footer {
+    background: #1f1f1f;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - JOBRD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/plantilla.css">
+    <script src="js/funciones.js" defer></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <nav class="nav_container">
+            <ul class="nav_list">
+                <li><a href="index.html" class="nav_link active-link">Inicio</a></li>
+                <li><a href="registro.html" class="nav_link">Registrarse</a></li>
+        
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container" style="margin-top: 120px;">
+        <h1>Iniciar Sesión</h1>
+        <form onsubmit="simularLogin(event)">
+            <label>Correo o Usuario:</label>
+            <input type="text" id="usuario" required>
+
+            <label>Contraseña:</label>
+            <div class="campo-password">
+                <input type="password" id="contrasena" required>
+                <button type="button" class="toggle-password" onclick="togglePassword('contrasena')">👁</button>
+            </div>
+
+            <button class="boton" type="button" onclick="window.location.href='ofertas.html'">Iniciar Sesión</button>
+            <p class="texto-secundario">¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>- Netanel De Jesus - 20231103 -</p>
+    </footer>
+</body>
+</html>

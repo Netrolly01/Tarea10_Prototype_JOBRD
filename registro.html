@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro - JOBRD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/plantilla.css">
+    <script src="js/funciones.js" defer></script>
+</head>
+<body>
+    <div class="header" id="header">
+        <nav class="nav_container">
+            <ul class="nav_list">
+                <li><a href="index.html" class="nav_link">Inicio</a></li>
+                <li><a href="login.html" class="nav_link">Iniciar Sesión</a></li>                
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container" style="margin-top: 120px;">
+        <h1>Registro de Usuario</h1>
+        <form onsubmit="simularRegistro(event)">
+            <label>Nombre:</label>
+            <input type="text" required>
+
+            <label>Apellido:</label>
+            <input type="text" required>
+
+            <label>Teléfono:</label>
+            <input type="text" required>
+
+            <label>Correo Electrónico:</label>
+            <input type="email" id="correo" required>
+
+            <label>Fecha de Nacimiento:</label>
+            <input type="date" required>
+
+            <label>Contraseña:</label>
+            <div class="campo-password">
+                <input type="password" id="registroContrasena" required>
+                <button type="button" class="toggle-password" onclick="togglePassword('registroContrasena')">👁</button>
+            </div>
+
+            <label>Confirmar Contraseña:</label>
+            <div class="campo-password">
+                <input type="password" id="confirmarContrasena" required>
+                <button type="button" class="toggle-password" onclick="togglePassword('confirmarContrasena')">👁</button>
+            </div>
+
+            <button class="boton" type="button" onclick="window.location.href='ofertas.html'">Registrarse</button>
+            <p class="texto-secundario">¿Ya tienes cuenta? <a href="login.html">Inicia sesión</a></p>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <p>- Netanel De Jesus - 20231103 -</p>
+    </footer>
+</body>
+</html>
+
